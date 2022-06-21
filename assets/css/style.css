@@ -619,6 +619,16 @@ section {
   }
 }
 
+.mytxt {
+  background: -webkit-linear-gradient(45deg, #c0025f, #fb6726);
+  background-clip: border-box;
+background-clip: border-box;
+background-clip: border-box;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-weight: 600 !important;
+}
+
 #myVideo {
   right: 0;
   bottom: 0;
@@ -633,7 +643,23 @@ section {
   font-weight: 600;
   font-size: 26px;
 }
+.my{
+  color: #fcfcfc
+}
+.SocialPulse{
+  color: #000000
+}
+.blacktxt{
+  color: #000000
+}
+.cardnew{
+  background-color: #202020;
+}
 
+.sub-titile{
+  color: #C21807;
+  
+}
 .about .content ul {
   list-style: none;
   padding: 0;
