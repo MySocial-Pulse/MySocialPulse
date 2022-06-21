@@ -724,7 +724,7 @@ font-weight: 600 !important;
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
-.services .icon-box {
+/* .services .icon-box {
   margin-bottom: 20px;
   padding: 30px;
   border-radius: 6px;
@@ -755,6 +755,43 @@ font-weight: 600 !important;
 
 .services .icon-box p {
   margin-left: 70px;
+  line-height: 24px;
+  font-size: 14px;
+} */
+
+.services .icon-box {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.services .icon {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.services .icon i {
+  color: #C21807;
+  font-size: 42px;
+}
+
+.services .title {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.services .title a {
+  color: #343a40;
+  transition: 0.3s;
+}
+
+.services .icon-box:hover .title a {
+  color: #70b9b0;
+}
+
+.services .description {
   line-height: 24px;
   font-size: 14px;
 }
